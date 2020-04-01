@@ -1,0 +1,27 @@
+
+ html{
+     height: 100%;
+ }
+section div h4{
+    color: black;
+    padding-left: 15px;
+    padding-top: 5px;
+    
+}
+ h3{
+     padding-bottom: 10px;
+     color: rgba(5, 84, 120, 0.6);
+ }
+ footer{
+    background: rgba(5, 84, 120, 0.6);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  footer h5{
+    color: white;
+  }
+  img{
+      margin-top: 20px;
+  }

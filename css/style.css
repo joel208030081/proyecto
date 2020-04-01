@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+body{
+    padding-top: 80px;
+    background: url(../img/bg.gif) center 0 repeat;
+    
+}
+* {
+	padding:0;
+	margin:0;
+}
+
+h2{
+    color: white;
+    padding-left: 20px;
+}
+#h{
+   background: rgba(5, 84, 120, 0.6);
+   
+}
+h4{
+    color: white;
+}
+#menu h4:hover{
+    color: black;
+}
+h5{
+    color: white;
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+footer{
+    background-color: rgba(5, 84, 120, 0.6);
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+

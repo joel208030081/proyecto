@@ -1,0 +1,84 @@
+#map {
+  height: 400px;
+  width: 100%;
+  padding-top: 60px;
+
+  }
+  .row{
+    padding-top: 60px;
+  }
+
+  .col-xs-12{
+    padding-top: 20px;
+  }
+  form{
+    width: 100%;
+    margin:auto;
+    background:  rgba(5, 84, 120, 0.6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+  }
+  .cajas{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+
+  }
+ form h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #boton{
+    background: #31384A;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    
+  }
+  #boton:hover{
+    cursor: pointer;
+    
+  }
+   select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+   }
+   label{
+     font-size: 17px;
+     color: white;
+   }
+ .row h4, h5{
+    color: black;
+  }
+  footer{
+    background: rgba(5, 84, 120, 0.6);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  footer h5{
+    color: white;
+  }
+     
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  

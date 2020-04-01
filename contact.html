@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Sports Club | Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <nav class="navbar navbar-default navbar-fixed-top" id="h">
+                <h2>Sports Club</h2>
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-1">
+                            <span class="sr-only">Menu</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-1">
+                        <ul class="nav navbar-nav" id="menu">
+                            <li><a href="index.html">
+                                    <h4>Home</h4>
+                                </a></li>
+                            <li><a href="informacion.html">
+                                    <h4>Informacion</h4>
+                                </a></li>
+                            <li><a href="Galeria.html">
+                                    <h4>Galeria</h4>
+                                </a></li>
+                            <li><a href="contact.html">
+                                    <h4>Contactenos</h4>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+    </div>
+    <br><br><br><br>
+
+    <div class="container">
+        <section class="main row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="map"></div>
+                <h4><strong>Costa Rica, Alajuela,<br>Villa Bonita, UTN Sede Central.</strong></h4>
+                <h5><strong>Telefono Personal:</strong> 62716181</h5>
+                <h5><strong>Telefono Laboral:</strong> 24333220</h5>
+                <h5><strong>E-mail:</strong> <a href="#">morajoelandres@gmail.com</a></h5>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <form action="">
+                    <h2>Contactenos</h2>
+                    <label for='nombre'> Nombre:</label>
+                    <input class="cajas" type="text" name="Nombre" id='nombre'>
+                    <label for=""> Email:</label>
+                    <input class="cajas" type="email" name="Email">
+                    <label for=""> Fecha de Nacimiento:</label>
+                    <input class="cajas" type="date" name="Fecha" id="fecha">
+                
+                    <label for="">Grado Academico</label>
+                    <select name="asiento" id="asiento" size="2" multiple>
+                        <option value="Diplomado">Diplomado</option>
+                        <option value="Bachiller">Bachiller</option>
+                        <option value="Licenciatura">Licenciatura</option>
+                        </select>
+                       
+                       <div class="radios">
+                        <label for=""> Sexo</label>
+                        <br>
+                        <label for=""><input type="radio" name="sexo" value="Hombre" checked="checked">Hombre</label>
+                        <label for=""><input type="radio" name="sexo" value="Mujer" >Mujer</label>
+                       </div>
+                     <input type="button" value="Enviar" id="boton">
+                </form>
+            </div>
+        </section>
+        
+                <footer>
+
+                    <h5>© 2020 Sports Club_Joel Mora Ibarra</h5>
+                </footer>
+          
+   
+    </div>
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/script.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIFefogjgH8Lse6h7JHOoVHhyua6TLagk&callback=iniciarMap"
+        async defer></script>
+</body>
+
+</html>
